@@ -1,7 +1,13 @@
-name = "Денис"
-surname = "Васюхник"
-age = 16
-if type(name) == type(surname) == type(age):
-    print(f"{name} {surname}")
-    print(f"{type(name)} {type(surname)}")
-    print(f"{type(name)} {type(age)}")
+n = "Денис"
+s = "Васюхник"
+a = 16
+
+if type(n) == type(s):
+    print(type(n))
+
+fn = [n, s]
+fn_str = ' '.join(fn)
+print(fn_str)
+
+if isinstance(a, int):
+    print(type(a))
